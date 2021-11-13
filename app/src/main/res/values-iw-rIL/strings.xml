@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tray_image_content_description">תמונת רקע</string>
+    <string name="more_info_button">מידע נוסף על חבילת הסטיקרים הזו</string>
+    <string name="add_to_whatsapp">"הוסף ל - "</string>
+    <string name="add_button_content_description">הוסף חבילה לווטסאפ</string>
+    <string name="title_activity_sticker_pack_details_multiple_pack">מידע נוסף על הסטיקר</string>
+    <string name="title_activity_sticker_pack_info">מידע</string>
+    <string name="view_webpage">הצג את האתר</string>
+    <string name="send_email">שלח מייל</string>
+    <string name="privacy_policy">מדיניות פרטיות</string>
+    <string name="license_agreement">רישיון</string>
+    <string name="info_screen_tray_icon">אייקון רקע</string>
+    <string name="details_pack_already_added">כבר נוסף לווטסאפ</string>
+    <string name="info_send_email_to_prompt">שלח אימייל בעזרת</string>
+    <string name="add_pack_fail_prompt_update_whatsapp">חבילת הסטיקרים לא נוספה, אם ברצונכם להוסיפה אנא בדקו שאתם משתמשים בגרסא החדישה ביותר של ווטסאפ</string>
+    <string name="add_pack_fail_prompt_update_play_link">עדכון</string>
+    <string name="cannot_find_play_store">חנות הפליי אינה מותקנת על המכישר הנוכחי</string>
+    <string name="update_question">האם תרצה לעדכן גרסה?</string>
+    <string name="update_version">עדכן גרסה</string>
+    <string name="remind_me_later">הזכר לי מאוחר יותר</string>
+    <string name="skip_this_update">דלג על העדכון</string>
+    <string name="sort_list" translatable="false">מיין רשימה על פי</string>
+    <string name="downloads_count">הורדות</string>
+    <string name="likes_count">לייקים</string>
+    <string name="release_date">תאריך הוצאה</string>
+</resources>

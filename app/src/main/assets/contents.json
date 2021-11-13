@@ -1,0 +1,632 @@
+{
+  "android_play_store_link": "https://play.google.com/store/apps/details?id=com.l_es.kiril_stickers",
+  "ios_app_store_link": "",
+  "sticker_packs": [
+    {
+      "identifier": "Asfour 2.0",
+      "name": "Asfour 2.0",
+      "publisher": "Kirill Gayvoronskiy",
+      "tray_image_file": "Tray_Asfour.webp",
+      "image_data_version":"1",
+      "avoid_cache":true,
+      "publisher_email":"Gkirill@hotmail.com",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "Asfour_1.webp",
+          "emojis": ["😱"]
+        },
+        {
+          "image_file": "Asfour_2.webp",
+          "emojis": ["🎂","🤗"]
+        },
+        {
+          "image_file": "Asfour_3.webp",
+          "emojis": ["😖","❗"]
+        },
+        {
+          "image_file": "Asfour_4.webp",
+          "emojis": ["🤣","❤️"]
+        },
+        {
+          "image_file": "Asfour_5.webp",
+          "emojis": ["🤕","❗"]
+        },
+        {
+          "image_file": "Asfour_6.webp",
+          "emojis": ["😓","😩"]
+        },
+        {
+          "image_file": "Asfour_7.webp",
+          "emojis": ["😒"]
+        },
+        {
+          "image_file": "Asfour_8.webp",
+          "emojis": ["😚","🤗","😉"]
+        },
+        {
+          "image_file": "Asfour_9.webp",
+          "emojis": ["😭","😓"]
+        },
+        {
+          "image_file": "Asfour_10.webp",
+          "emojis": ["😅","🗯️"]
+        },
+        {
+          "image_file": "Asfour_11.webp",
+          "emojis": ["😌","😁","🙍‍♂"]
+        },
+        {
+          "image_file": "Asfour_12.webp",
+          "emojis": ["😌","😁","🙍‍♀"]
+        },
+        {
+          "image_file": "Asfour_13.webp",
+          "emojis": ["😊","😅"]
+        },
+        {
+          "image_file": "Asfour_14.webp",
+          "emojis": ["🤬","👿"]
+        },
+        {
+          "image_file": "Asfour_15.webp",
+          "emojis": ["🌧","😢"]
+        },
+        {
+          "image_file": "Asfour_16.webp",
+          "emojis": ["😟","🙍‍♀"]
+        }
+      ]
+    },
+    {
+      "identifier": "AsiVeGuri 2.0",
+      "name": "AsiVeGuri 2.0",
+      "publisher": "Kirill Gayvoronskiy",
+      "tray_image_file": "Tray_AsiVeGuri.webp",
+      "image_data_version":"1",
+      "avoid_cache":true,
+      "publisher_email":"Gkirill@hotmail.com",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "AsiVeGuri_1.webp",
+          "emojis": ["😭","😌"]
+        },
+        {
+          "image_file": "AsiVeGuri_2.webp",
+          "emojis": ["😠","🗯","❕"]
+        },
+        {
+          "image_file": "AsiVeGuri_3.webp",
+          "emojis": ["🎉","😅"]
+        },
+        {
+          "image_file": "AsiVeGuri_4.webp",
+          "emojis": ["👿","😥"]
+        },
+        {
+          "image_file": "AsiVeGuri_5.webp",
+          "emojis": ["😒","❗"]
+        },
+        {
+          "image_file": "AsiVeGuri_6.webp",
+          "emojis": ["😕","🍾"]
+        },
+        {
+          "image_file": "AsiVeGuri_7.webp",
+          "emojis": ["😳","😂"]
+        },
+        {
+          "image_file": "AsiVeGuri_8.webp",
+          "emojis": ["😲","😄"]
+        },
+        {
+          "image_file": "AsiVeGuri_9.webp",
+          "emojis": ["😠","🗯","🙍♂"]
+        },
+        {
+          "image_file": "AsiVeGuri_10.webp",
+          "emojis": ["😠","🗯","🙍♀"]
+        },
+        {
+          "image_file": "AsiVeGuri_11.webp",
+          "emojis": ["🤕","🥺"]
+        },
+        {
+          "image_file": "AsiVeGuri_12.webp",
+          "emojis": ["🤯","😅"]
+        },
+        {
+          "image_file": "AsiVeGuri_13.webp",
+          "emojis": ["😡","🙍‍♂"]
+        },
+        {
+          "image_file": "AsiVeGuri_14.webp",
+          "emojis": ["😡","🙍‍♀"]
+        },
+        {
+          "image_file": "AsiVeGuri_15.webp",
+          "emojis": ["😮","🗯"]
+        },
+        {
+          "image_file": "AsiVeGuri_16.webp",
+          "emojis": ["✨","🤗"]
+        }
+      ]
+    },
+    {
+      "identifier": "GurVeOach 2.0",
+      "name": "GurVeOach 2.0",
+      "publisher": "Kirill Gayvoronskiy",
+      "tray_image_file": "Tray_GurVeOach.webp",
+      "image_data_version":"1",
+      "avoid_cache":true,
+      "publisher_email":"Gkirill@hotmail.com",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "GurVeOach_1.webp",
+          "emojis": ["😳","🤯","🙍‍♂"]
+        },
+        {
+          "image_file": "GurVeOach_2.webp",
+          "emojis": ["😳","🤯","🙍‍♀"]
+        },
+        {
+          "image_file": "GurVeOach_3.webp",
+          "emojis": ["😌","❕"]
+        },
+        {
+          "image_file": "GurVeOach_4.webp",
+          "emojis": ["😡","⭐","💔"]
+        },
+        {
+          "image_file": "GurVeOach_5.webp",
+          "emojis": ["😱","😳"]
+        },
+        {
+          "image_file": "GurVeOach_6.webp",
+          "emojis": ["😃","❗","🙍‍♂"]
+        },
+        {
+          "image_file": "GurVeOach_7.webp",
+          "emojis": ["😃","❗","🙍‍♀"]
+        },
+        {
+          "image_file": "GurVeOach_8.webp",
+          "emojis": ["🤪","🤣"]
+        },
+        {
+          "image_file": "GurVeOach_9.webp",
+          "emojis": ["😒","🙄"]
+        },
+        {
+          "image_file": "GurVeOach_10.webp",
+          "emojis": ["😱","😨"]
+        },
+        {
+          "image_file": "GurVeOach_11.webp",
+          "emojis": ["😭","😔"]
+        },
+        {
+          "image_file": "GurVeOach_12.webp",
+          "emojis": ["😜","🤬"]
+        },
+        {
+          "image_file": "GurVeOach_13.webp",
+          "emojis": ["☹","😩"]
+        },
+        {
+          "image_file": "GurVeOach_14.webp",
+          "emojis": ["😲","😨"]
+        },
+        {
+          "image_file": "GurVeOach_15.webp",
+          "emojis": ["😱","🙀"]
+        },
+        {
+          "image_file": "GurVeOach_16.webp",
+          "emojis": ["😅","😄"]
+        }
+      ]
+    },
+    {
+      "identifier": "HaParlament 2.0",
+      "name": "HaParlament 2.0",
+      "publisher": "Kirill Gayvoronskiy",
+      "tray_image_file": "Tray_HaParlament.webp",
+      "image_data_version":"1",
+      "avoid_cache":true,
+      "publisher_email":"Gkirill@hotmail.com",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "HaParlament_1.webp",
+          "emojis": ["✨","⭐","🤗"]
+        },
+        {
+          "image_file": "HaParlament_2.webp",
+          "emojis": ["🙄","🗯"]
+        },
+        {
+          "image_file": "HaParlament_3.webp",
+          "emojis": ["🥂","🍻","😅"]
+        },
+        {
+          "image_file": "HaParlament_4.webp",
+          "emojis": ["😃","🥰"]
+        },
+        {
+          "image_file": "HaParlament_5.webp",
+          "emojis": ["👿","😤"]
+        },
+        {
+          "image_file": "HaParlament_6.webp",
+          "emojis": ["🙄","💔","🙍‍♂"]
+        },
+        {
+          "image_file": "HaParlament_7.webp",
+          "emojis": ["🙄","💔","🙍‍♀"]
+        },
+        {
+          "image_file": "HaParlament_8.webp",
+          "emojis": ["🙍‍♀","😜"]
+        },
+        {
+          "image_file": "HaParlament_9.webp",
+          "emojis": ["🤕","😠"]
+        },
+        {
+          "image_file": "HaParlament_10.webp",
+          "emojis": ["😮","😨"]
+        },
+        {
+          "image_file": "HaParlament_11.webp",
+          "emojis": ["❗","😫","😓"]
+        },
+        {
+          "image_file": "HaParlament_12.webp",
+          "emojis": ["😭","😟"]
+        },
+        {
+          "image_file": "HaParlament_13.webp",
+          "emojis": ["😲","😟"]
+        },
+        {
+          "image_file": "HaParlament_14.webp",
+          "emojis": ["😡","😤","🙍‍♀"]
+        },
+        {
+          "image_file": "HaParlament_15.webp",
+          "emojis": ["😡","😤","🙍‍♂"]
+        },
+        {
+          "image_file": "HaParlament_16.webp",
+          "emojis": ["🎁","😉"]
+        },
+        {
+          "image_file": "HaParlament_17.webp",
+          "emojis": ["🤗","😌","😅"]
+        },
+        {
+          "image_file": "HaParlament_18.webp",
+          "emojis": ["😳","😁","🕺"]
+        },
+        {
+          "image_file": "HaParlament_19.webp",
+          "emojis": ["😠","🗯️","❗"]
+        },
+        {
+          "image_file": "HaParlament_20.webp",
+          "emojis": ["😜","💌"]
+        }
+      ]
+    },
+    {
+      "identifier": "HaPijamot 2.0",
+      "name": "HaPijamot 2.0",
+      "publisher": "Kirill Gayvoronskiy",
+      "tray_image_file": "Tray_HaPijamot.webp",
+      "image_data_version":"1",
+      "avoid_cache":true,
+      "publisher_email":"Gkirill@hotmail.com",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "HaPijamot_1.webp",
+          "emojis": ["😊","😃"]
+        },
+        {
+          "image_file": "HaPijamot_2.webp",
+          "emojis": ["🙄","🤗","🙍‍♀"]
+        },
+        {
+          "image_file": "HaPijamot_3.webp",
+          "emojis": ["🍰","😁"]
+        },
+        {
+          "image_file": "HaPijamot_4.webp",
+          "emojis": ["😌","❤","🙍‍♂"]
+        },
+        {
+          "image_file": "HaPijamot_5.webp",
+          "emojis": ["😌","❤️","🙍‍♀"]
+        },
+        {
+          "image_file": "HaPijamot_6.webp",
+          "emojis": ["😕","🗯️"]
+        },
+        {
+          "image_file": "HaPijamot_7.webp",
+          "emojis": ["🤬","😡"]
+        },
+        {
+          "image_file": "HaPijamot_8.webp",
+          "emojis": ["😘","😍"]
+        },
+        {
+          "image_file": "HaPijamot_9.webp",
+          "emojis": ["⛈","🤯"]
+        },
+        {
+          "image_file": "HaPijamot_10.webp",
+          "emojis": ["😩","🙍‍♀"]
+        },
+        {
+          "image_file": "HaPijamot_11.webp",
+          "emojis": ["😩","🙍‍♂"]
+        },
+        {
+          "image_file": "HaPijamot_12.webp",
+          "emojis": ["💌","😧"]
+        },
+        {
+          "image_file": "HaPijamot_13.webp",
+          "emojis": ["😟","😒"]
+        },
+        {
+          "image_file": "HaPijamot_14.webp",
+          "emojis": ["😍","😃"]
+        },
+        {
+          "image_file": "HaPijamot_15.webp",
+          "emojis": ["🤯","😳"]
+        },
+        {
+          "image_file": "HaPijamot_16.webp",
+          "emojis": ["😱"]
+        },
+        {
+          "image_file": "HaPijamot_17.webp",
+          "emojis": ["🙄","🙁"]
+        },
+        {
+          "image_file": "HaPijamot_18.webp",
+          "emojis": ["😯","😅","🙍‍♀"]
+        },
+        {
+          "image_file": "HaPijamot_19.webp",
+          "emojis": ["😭","😩"]
+        },
+        {
+          "image_file": "HaPijamot_20.webp",
+          "emojis": ["🤪","🤣"]
+        },
+        {
+          "image_file": "HaPijamot_21.webp",
+          "emojis": ["🥺","😲"]
+        },
+        {
+          "image_file": "HaPijamot_22.webp",
+          "emojis": ["😅"]
+        },
+        {
+          "image_file": "HaPijamot_23.webp",
+          "emojis": ["🤬","👿"]
+        },
+        {
+          "image_file": "HaPijamot_24.webp",
+          "emojis": ["😝","🤕"]
+        }
+      ]
+    },
+    {
+      "identifier": "ZaguriEmpire 2.0",
+      "name": "ZaguriEmpire 2.0",
+      "publisher": "Kirill Gayvoronskiy",
+      "tray_image_file": "Tray_ZaguriEmpire.webp",
+      "image_data_version":"1",
+      "avoid_cache":true,
+      "publisher_email":"Gkirill@hotmail.com",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "ZaguriEmpire_1.webp",
+          "emojis": ["❤","🌧","😍"]
+        },
+        {
+          "image_file": "ZaguriEmpire_2.webp",
+          "emojis": ["🙄","🤪"]
+        },
+        {
+          "image_file": "ZaguriEmpire_3.webp",
+          "emojis": ["😡","❗"]
+        },
+        {
+          "image_file": "ZaguriEmpire_4.webp",
+          "emojis": ["😒","🤣"]
+        },
+        {
+          "image_file": "ZaguriEmpire_5.webp",
+          "emojis": ["👋","😕"]
+        },
+        {
+          "image_file": "ZaguriEmpire_6.webp",
+          "emojis": ["🥺","🌧"]
+        },
+        {
+          "image_file": "ZaguriEmpire_7.webp",
+          "emojis": ["☺","🙂","😊"]
+        },
+        {
+          "image_file": "ZaguriEmpire_8.webp",
+          "emojis": ["😓","💔"]
+        },
+        {
+          "image_file": "ZaguriEmpire_9.webp",
+          "emojis": ["😃","🎉","🍾"]
+        },
+        {
+          "image_file": "ZaguriEmpire_10.webp",
+          "emojis": ["😤","😡"]
+        },
+        {
+          "image_file": "ZaguriEmpire_11.webp",
+          "emojis": ["🤯","🤬"]
+        },
+        {
+          "image_file": "ZaguriEmpire_12.webp",
+          "emojis": ["😧","😥","👩‍❤️‍👨"]
+        },
+        {
+          "image_file": "ZaguriEmpire_13.webp",
+          "emojis": ["👺","🤬","👿"]
+        },
+        {
+          "image_file": "ZaguriEmpire_14.webp",
+          "emojis": ["🤪","😒","🙄"]
+        },
+        {
+          "image_file": "ZaguriEmpire_15.webp",
+          "emojis": ["😠","🗯️","👿"]
+        },
+        {
+          "image_file": "ZaguriEmpire_16.webp",
+          "emojis": ["😤","🌧","❗"]
+        }
+      ]
+    },
+    {
+      "identifier": "ZotVeZoti 2.0",
+      "name": "ZotVeZoti 2.0",
+      "publisher": "Kirill Gayvoronskiy",
+      "tray_image_file": "Tray_ZotVeZoti.webp",
+      "image_data_version":"1",
+      "avoid_cache":true,
+      "publisher_email":"Gkirill@hotmail.com",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "ZotVeZoti_1.webp",
+          "emojis": ["😱"]
+        },
+        {
+          "image_file": "ZotVeZoti_2.webp",
+          "emojis": ["🎂","🤗"]
+        },
+        {
+          "image_file": "ZotVeZoti_3.webp",
+          "emojis": ["😖","❗"]
+        },
+        {
+          "image_file": "ZotVeZoti_4.webp",
+          "emojis": ["🤣","❤️"]
+        },
+        {
+          "image_file": "ZotVeZoti_5.webp",
+          "emojis": ["🤕","❗"]
+        },
+        {
+          "image_file": "ZotVeZoti_6.webp",
+          "emojis": ["😓","😩"]
+        },
+        {
+          "image_file": "ZotVeZoti_7.webp",
+          "emojis": ["😒"]
+        },
+        {
+          "image_file": "ZotVeZoti_8.webp",
+          "emojis": ["😚","🤗","😉"]
+        },
+        {
+          "image_file": "ZotVeZoti_9.webp",
+          "emojis": ["😭","😓"]
+        },
+        {
+          "image_file": "ZotVeZoti_10.webp",
+          "emojis": ["😅","🗯️"]
+        },
+        {
+          "image_file": "ZotVeZoti_11.webp",
+          "emojis": ["😌","😁","🙍‍♂"]
+        },
+        {
+          "image_file": "ZotVeZoti_12.webp",
+          "emojis": ["😌","😁","🙍‍♀"]
+        },
+        {
+          "image_file": "ZotVeZoti_13.webp",
+          "emojis": ["😊","😅"]
+        },
+        {
+          "image_file": "ZotVeZoti_14.webp",
+          "emojis": ["🤬","👿"]
+        },
+        {
+          "image_file": "ZotVeZoti_15.webp",
+          "emojis": ["🌧","😢"]
+        },
+        {
+          "image_file": "ZotVeZoti_16.webp",
+          "emojis": ["😟","🙍‍♀"]
+        },
+        {
+          "image_file": "ZotVeZoti_17.webp",
+          "emojis": ["😟","🙍‍♂"]
+        },
+        {
+          "image_file": "ZotVeZoti_18.webp",
+          "emojis": ["🤯","😂","😮"]
+        },
+        {
+          "image_file": "ZotVeZoti_19.webp",
+          "emojis": ["😒","⭐"]
+        },
+        {
+          "image_file": "ZotVeZoti_20.webp",
+          "emojis": ["🙄"]
+        },
+        {
+          "image_file": "ZotVeZoti_21.webp",
+          "emojis": ["😕","🙁"]
+        },
+        {
+          "image_file": "ZotVeZoti_22.webp",
+          "emojis": ["🤗","😃","❤️"]
+        },
+        {
+          "image_file": "ZotVeZoti_23.webp",
+          "emojis": ["🤯","😳"]
+        },
+        {
+          "image_file": "ZotVeZoti_24.webp",
+          "emojis": ["😳","😌"]
+        }
+      ]
+    }
+  ]
+}

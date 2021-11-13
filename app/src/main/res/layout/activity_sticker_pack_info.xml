@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg_light"
+    android:orientation="vertical"
+    android:paddingTop="18dp"
+    tools:context=".StickerPackInfoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12sp"
+            android:layout_marginLeft="12sp"
+            android:layout_marginEnd="12sp"
+            android:layout_marginRight="12sp"
+            android:layout_marginBottom="12sp"
+            app:cardCornerRadius="33sp"
+            app:cardElevation="6sp">
+
+            <TextView
+                android:id="@+id/tray_icon"
+                style="@style/InfoButtonStyle"
+                android:clickable="false"
+                android:text="@string/info_screen_tray_icon"
+                android:textColor="#B9B9B9"
+                tools:drawableLeft="@drawable/sticker_3rdparty_web"
+                tools:drawableStart="@drawable/sticker_3rdparty_web" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12sp"
+            android:layout_marginLeft="12sp"
+            android:layout_marginEnd="12sp"
+            android:layout_marginRight="12sp"
+            android:layout_marginBottom="12sp"
+            app:cardCornerRadius="33sp"
+            app:cardElevation="6sp">
+
+            <TextView
+                android:id="@+id/view_webpage"
+                style="@style/InfoButtonStyle"
+                android:text="@string/view_webpage"
+                app:drawableStartCompat="@drawable/sticker_3rdparty_web" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12sp"
+            android:layout_marginLeft="12sp"
+            android:layout_marginEnd="12sp"
+            android:layout_marginRight="12sp"
+            android:layout_marginBottom="12sp"
+            app:cardCornerRadius="33sp"
+            app:cardElevation="6sp">
+
+            <TextView
+                android:id="@+id/send_email"
+                style="@style/InfoButtonStyle"
+                android:text="@string/send_email"
+                app:drawableStartCompat="@drawable/sticker_3rdparty_email" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12sp"
+            android:layout_marginLeft="12sp"
+            android:layout_marginEnd="12sp"
+            android:layout_marginRight="12sp"
+            android:layout_marginBottom="12sp"
+            app:cardCornerRadius="33sp"
+            app:cardElevation="6sp">
+
+            <TextView
+                android:id="@+id/privacy_policy"
+                style="@style/InfoButtonStyle"
+                android:text="@string/privacy_policy"
+                app:drawableStartCompat="@drawable/sticker_3rdparty_privacy" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12sp"
+            android:layout_marginLeft="12sp"
+            android:layout_marginEnd="12sp"
+            android:layout_marginRight="12sp"
+            android:layout_marginBottom="12sp"
+            app:cardCornerRadius="33sp"
+            app:cardElevation="6sp">
+
+            <TextView
+                android:id="@+id/license_agreement"
+                style="@style/InfoButtonStyle"
+                android:text="@string/license_agreement"
+                app:drawableStartCompat="@drawable/sticker_3rdparty_license" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25sp"
+            android:onClick="goBack"
+            app:cardCornerRadius="33sp"
+            app:cardElevation="6sp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_goBack"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:focusable="false"
+                android:clickable="false"
+                android:padding="12sp"
+                android:layout_margin="6sp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:text="@string/go_back"
+                app:drawableStartCompat="@drawable/arrow_back_black"
+                app:drawableEndCompat="@drawable/arrow_forward_black" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    <!-- All extra info regarding the pack, by pressing the 'i' button -->

@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/motion_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg_light"
+    app:layoutDescription="@xml/activity_sticker_pack_list_scene"
+    tools:context=".StickerPackListActivity">
+
+    <!--    Settings - Opened    -->
+    <LinearLayout
+        android:id="@+id/settings_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.92"
+        android:background="@drawable/bg_shape_circle"
+        android:elevation="2sp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sortListHeadline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sort_list"
+        android:layout_marginTop="15sp"
+        android:textSize="32sp"
+        android:textAlignment="center"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textColor="#131313"
+        android:fontFamily="@font/aduma"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/btn_sortDates"
+        android:layout_width="wrap_content"
+        android:layout_height="100sp"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toBottomOf="@+id/sortListHeadline">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:focusable="false"
+            android:src="@drawable/ic_outer_b"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewReleaseDate"
+            android:layout_width="500sp"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:drawablePadding="60sp"
+            android:ellipsize="end"
+            android:focusable="false"
+            android:gravity="end|center_vertical"
+            android:maxLines="1"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="@string/release_date"
+            android:textAlignment="textEnd"
+            android:textColor="#4E4E4E"
+            android:textSize="40sp"
+            android:layout_marginEnd="60sp"
+            app:drawableEndCompat="@drawable/calender"
+            app:layout_constraintBottom_toBottomOf="@id/img1"
+            app:layout_constraintEnd_toEndOf="@id/img1"
+            app:layout_constraintStart_toStartOf="@id/img1"
+            app:layout_constraintTop_toTopOf="@id/img1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/btn_sortDownloads"
+        android:layout_width="wrap_content"
+        android:layout_height="100sp"
+        android:layout_marginTop="12sp"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_sortDates">
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:focusable="false"
+            android:src="@drawable/ic_outer_b"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewDownloads"
+            android:layout_width="250sp"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:drawablePadding="40sp"
+            android:ellipsize="end"
+            android:focusable="false"
+            android:gravity="end|center_vertical"
+            android:maxLines="1"
+            android:text="@string/downloads_count"
+            android:textAlignment="textEnd"
+            android:textColor="#4E4E4E"
+            android:textSize="20sp"
+            android:layout_marginEnd="60sp"
+            app:drawableEndCompat="@drawable/downloads"
+            app:layout_constraintBottom_toBottomOf="@id/img2"
+            app:layout_constraintEnd_toEndOf="@id/img2"
+            app:layout_constraintStart_toStartOf="@id/img2"
+            app:layout_constraintTop_toTopOf="@id/img2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/btn_sortLikes"
+        android:layout_width="wrap_content"
+        android:layout_height="100sp"
+        android:layout_marginTop="12sp"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_sortDownloads">
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:focusable="false"
+            android:src="@drawable/ic_outer_b"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewLikes"
+            android:layout_width="250sp"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:drawablePadding="65sp"
+            android:ellipsize="end"
+            android:focusable="false"
+            android:gravity="end|center_vertical"
+            android:maxLines="1"
+            android:text="@string/likes_count"
+            android:textAlignment="textEnd"
+            android:textColor="#4E4E4E"
+            android:textSize="20sp"
+            android:layout_marginEnd="60sp"
+            app:drawableEndCompat="@drawable/likes"
+            app:layout_constraintBottom_toBottomOf="@id/img3"
+            app:layout_constraintEnd_toEndOf="@id/img3"
+            app:layout_constraintStart_toStartOf="@id/img3"
+            app:layout_constraintTop_toTopOf="@id/img3" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--    Settings - Closed    -->
+    <ImageView
+        android:id="@+id/imageView_Settings"
+        android:layout_width="24sp"
+        android:layout_height="24sp"
+        android:layout_marginEnd="10sp"
+        android:layout_marginTop="14sp"
+        android:layout_marginStart="10sp"
+        android:elevation="1sp"
+        android:src="@drawable/settings"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <!--    Main Screen Body    -->
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_bg_light"
+        android:orientation="vertical">
+
+        <!--    Headline            -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="60sp"
+            android:layout_gravity="end"
+            android:layout_marginStart="14sp"
+            android:layout_marginTop="18sp"
+            android:layout_marginEnd="14sp"
+            android:contentDescription="@string/app_name_hebrew"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_logo_line" />
+        <!--    Featured Pack       -->
+        <RelativeLayout
+            android:id="@+id/featured_general_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/featured_pack_card_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:visibility="visible"
+                app:cardCornerRadius="16sp"
+                app:cardElevation="6dp"
+                app:cardUseCompatPadding="true">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/sticker_store_featured_row_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#2B2B30"
+                    android:padding="6sp">
+
+                    <ImageView
+                        android:id="@+id/featured_star"
+                        android:layout_width="16sp"
+                        android:layout_height="16sp"
+                        android:src="@drawable/star_featured"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <LinearLayout
+                        android:id="@+id/sticker_featured_pack_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16sp"
+                        android:layout_marginTop="8sp"
+                        android:gravity="center_vertical"
+                        android:maxWidth="150sp"
+                        android:orientation="vertical"
+                        android:paddingBottom="4dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/sticker_pack_featured_title"
+                            style="@style/sticker_packs_list_item_author_style"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="24sp"
+                            android:ellipsize="end"
+                            android:textColor="@android:color/white"
+                            android:textSize="24sp"
+                            tools:text="Pusheen" />
+
+                        <TextView
+                            android:id="@+id/sticker_pack_featured_publisher"
+                            style="@style/sticker_packs_list_item_author_style"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="12sp"
+                            android:ellipsize="end"
+                            android:maxWidth="150dp"
+                            android:textColor="@android:color/white"
+                            android:textSize="14sp"
+                            tools:text="petellison" />
+
+                        <TextView
+                            android:id="@+id/sticker_pack_featured_file_size"
+                            style="@style/sticker_packs_list_item_author_style"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="6sp"
+                            android:textColor="@android:color/white"
+                            android:textSize="16sp"
+                            tools:text="700kb" />
+
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:id="@+id/sticker_packs_featured_preview"
+                android:layout_width="wrap_content"
+                android:layout_height="125sp"
+                android:layout_alignBottom="@+id/featured_pack_card_view"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="175sp"
+                android:layout_marginEnd="35sp"
+                android:layout_marginBottom="22sp"
+                android:elevation="12sp"
+                android:maxWidth="180sp"
+                android:paddingStart="10sp"
+                android:paddingEnd="10sp"
+                android:src="@drawable/heart_empty" />
+
+        </RelativeLayout>
+        <!--    All Packs + AdMob   -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--    All Packs List      -->
+            <LinearLayout
+                android:id="@+id/tab1_all_packs_page"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4sp"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/error_message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:visibility="gone"
+                    tools:text="@string/error_message" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/sticker_pack_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+            </LinearLayout>
+            <!--    Google AdMob        -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/banner_ad_bg"
+                android:gravity="center">
+
+                <!--    Test Ad :  ca-app-pub-3940256099942544/6300978111    -->
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/adView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12sp"
+                    android:layout_marginEnd="12sp"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-4998289698335082/9975927719" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

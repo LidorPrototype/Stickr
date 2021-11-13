@@ -1,0 +1,107 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- This is the app's name, translators please do not translate and put in the same text as English version. Developers can consider putting in their own translation, this string must be changed before publishing -->
+    <string name="app_name" translatable="false">Stickr</string>
+    <!-- Content description for the sticker pack tray image -->
+    <string name="tray_image_content_description">Sticker Pack Cover Image</string>
+    <!-- the title of info button in the menu that takes the user to more information about that pack showing publisher website and so on -->
+    <string name="more_info_button">More info about sticker pack</string>
+    <!-- Text to be shown on the button that user can click to add the sticker pack to WhatsApp -->
+    <string name="add_to_whatsapp">Add to - </string>
+    <!-- Content Description for the plus button shown on sticker pack list, that allows user to add sticker pack to WhatsApp -->
+    <string name="add_button_content_description">Add sticker pack to WhatsApp</string>
+    <!-- Title of the sticker pack list activity page in case the app contains multiple sticker packs, the singular string will be used when there is only one pack in the app -->
+    <plurals name="title_activity_sticker_packs_list">
+        <item quantity="one">Sticker Pack</item>
+        <item quantity="other">Sticker Packs</item>
+    </plurals>
+    <!-- Title of the sticker pack page when there are multiple sticker packs in the app -->
+    <string name="title_activity_sticker_pack_details_multiple_pack">Sticker details</string>
+    <!-- Title of the sticker pack info page which displays the webpage, email and privacy policy of the sticker pack -->
+    <string name="title_activity_sticker_pack_info">Info</string>
+    <!-- Text of button that allows user to click to go to the webpage of the publisher -->
+    <string name="view_webpage">View webpage</string>
+    <!-- Text of button that allows user to click to send an email -->
+    <string name="send_email">Send email</string>
+    <!-- Text of button that allows user to click to go to the privacy policy website -->
+    <string name="privacy_policy">Privacy policy</string>
+    <!-- Text of button that allows user to click to go to the license agreement website -->
+    <string name="license_agreement">License agreement</string>
+    <!-- Text next to the tray icon that indicates the tray icon -->
+    <string name="info_screen_tray_icon">Tray icon</string>
+    <!-- Text shown to the user instead of Add to WhatsApp button if the pack is already added to WhatsApp -->
+    <string name="details_pack_already_added">Already added</string>
+    <!-- Title in the intent chooser that shows when user has multiple email client installed -->
+    <string name="info_send_email_to_prompt">Send email with</string>
+    <!-- Message to show in a dialog when user fails to add sticker pack -->
+    <string name="add_pack_fail_prompt_update_whatsapp">Sticker pack not added. If you\'d like to add it, make sure you update to the latest version of WhatsApp.</string>
+    <!-- Text in dialog button when a user has an old version of WhatsApp that prevents them from adding the sticker pack, clicking on it will take user to play store -->
+    <string name="add_pack_fail_prompt_update_play_link">Update</string>
+    <!-- Toast text when we could not take user to play store because they don't have Google Play app installed -->
+    <string name="cannot_find_play_store">Google Play is not installed on the device.</string>
+    <!-- Content description indicating the sticker pack is an animated pack -->
+    <string name="sticker_pack_animation_indicator" translatable="false" tools:ignore="MissingTranslation">Animated sticker pack</string>
+    <!-- text we display at the end of sticker pack details page showing that users can tap sticker to see bigger version -->
+    <string name="sticker_pack_details_tap_to_preview" translatable="false" tools:ignore="MissingTranslation">Tap to preview sticker</string>
+    <string name="sample_text" translatable="false">
+        In publishing and graphic design,
+        Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.
+    </string>
+    <string name="back_button" translatable="false">Back Button</string>
+    <string name="app_name_hebrew" translatable="false">App Name - Hebrew</string>
+
+<!--  Packages Name  -->
+    <string name="asi_ve_guri" translatable="false">AsiVeGuri 2.0</string>
+    <string name="gur_ve_oach" translatable="false">GurVeOach 2.0</string>
+    <string name="haparlament" translatable="false">HaParlament 2.0</string>
+    <string name="hapijamot" translatable="false">HaPijamot 2.0</string>
+    <string name="shababnikim" translatable="false">Shababnikim 2.0</string>
+    <string name="zaguri_empire" translatable="false">ZaguriEmpire 2.0</string>
+    <string name="zot_ve_zoti" translatable="false">ZotVeZoti 2.0</string>
+    <string name="asfour" translatable="false">Asfour 2.0</string>
+
+    <string name="update_question">Would you like to update the app?</string>
+    <string name="update_version">Update Version</string>
+    <string name="remind_me_later">Remind Me Later</string>
+    <string name="skip_this_update">Skip Update</string>
+    <string name="sort_list">Sort list according to</string>
+    <string name="release_date">Release Date</string>
+    <string name="downloads_count">Downloads</string>
+    <string name="likes_count">Likes</string>
+
+
+    <!--    Heart Geometry   -->
+    <string name="heart_empty_path" translatable="false">
+        M32.95, 19 C31.036, 19 29.199, 19.8828338 28,
+        21.2724796 C26.801, 19.8828338 24.964,
+        19 23.05, 19 C19.6565, 19 17, 21.6321526 17,
+        24.9945504 C17, 29.1089918 20.74, 32.4713896
+        26.405, 37.5667575 L28, 39 L29.595, 37.5667575 C35.26,
+        32.4713896 39, 29.1089918 39, 24.9945504 C39,
+        21.6321526 36.3435, 19 32.95, 19 L32.95,
+        19 Z M28.1155, 35.9536785 L28, 36.0572207 L27.8845,
+        35.9536785 C22.654, 31.2506812 19.2,
+        28.1444142 19.2, 24.9945504 C19.2, 22.8201635 20.8555,
+        21.1798365 23.05, 21.1798365 C24.744,
+        21.1798365 26.394, 22.2643052 26.9715, 23.7520436
+        L29.023, 23.7520436 C29.606, 22.2643052 31.256,
+        21.1798365 32.95, 21.1798365 C35.1445,
+        21.1798365 36.8, 22.8201635 36.8,
+        24.9945504 C36.8, 28.1444142 33.346,
+        31.2506812 28.1155, 35.9536785 L28.1155,
+        35.9536785 Z
+    </string>
+    <string name="heart_full_path" translatable="false">
+        M28, 39 L26.405, 37.5667575 C20.74,
+        32.4713896 17, 29.1089918 17,
+        24.9945504 C17, 21.6321526 19.6565,
+        19 23.05, 19 C24.964, 19 26.801, 19.8828338 28,
+        21.2724796 C29.199, 19.8828338 31.036, 19 32.95,
+        19 C36.3435, 19 39, 21.6321526 39, 24.9945504 C39,
+        29.1089918 35.26, 32.4713896 29.595,
+        37.5667575 L28, 39 L28, 39 Z
+    </string>
+    <string name="heart_clip_hidden" translatable="false">M18 37 L38 37 L38 37 L18 37 Z</string>
+    <string name="heart_clip_shown" translatable="false">M0 0 L56 0 L56 56 L0 56 Z</string>
+    <string name="go_back" translatable="false">Go Back</string>
+
+</resources>
